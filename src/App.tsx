@@ -132,13 +132,13 @@ export function App() {
                 <Form.Field key={field.id}>
                   <div className="flex gap-2 items-center">
                     <Form.Input type={fieldName} name={fieldName} />
-                    <Form.Input type="number" name={fieldeExperience} w="10" />
+                    <Form.Input type="number" name={fieldeExperience} w="w-10" />
 
-                    {/* {errors.techs?.[index]?.title && (
+                    {errors.techs?.[index]?.title && (
                       <span className="flex flex-col text-red-500 text-xs">
                         {errors.techs?.[index]?.title?.message}
                       </span>
-                    )} */}
+                    )}
                   </div>
                 </Form.Field>
               );
